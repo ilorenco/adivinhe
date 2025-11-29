@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+    font-size: 16px;
+}
+
+body {
+    background-color: #F5F5F5;
+
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+button {
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+button:hover {
+    filter: brightness(0.9);
+}
