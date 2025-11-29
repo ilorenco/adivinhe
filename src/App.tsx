@@ -2,6 +2,7 @@ import { Header } from "./components/header"
 import { Tip } from "./components/tip"
 import { Letter } from "./components/letter"
 import { Input } from "./components/input"
+import { Button } from "./components/button"
 
 function handleRestart() {
     alert("Reiniciar jogo")
@@ -26,7 +27,10 @@ export function App() {
 
                 <div>
                     <h4 className="text-lg font-bold">Palpite</h4>
-                    <Input autoFocus maxLength={1} placeholder="?" />
+                    <div className="flex gap-3 mt-3">
+                        <Input autoFocus maxLength={1} placeholder="?" />
+                        <Button title="Confirmar" />
+                    </div>
                 </div>
             </div>
         </div>
