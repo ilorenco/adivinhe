@@ -3,6 +3,7 @@ import { Tip } from "./components/tip"
 import { Letter } from "./components/letter"
 import { Input } from "./components/input"
 import { Button } from "./components/button"
+import { LettersUsed } from "./components/letters-used"
 
 function handleRestart() {
     alert("Reiniciar jogo")
@@ -32,6 +33,7 @@ export function App() {
                         <Button title="Confirmar" />
                     </div>
                 </div>
+                <LettersUsed />
             </div>
         </div>
     )
